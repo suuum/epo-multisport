@@ -77,8 +77,9 @@ class Header extends React.Component {
     const brandStyle = {
       borderRadius: '50%',
       height:'70px'
-    }
+    };
     const brandComponent = <img src={Img} height="70px" style={brandStyle} />;
+
     return (
       <AppBar className={appBarClasses}>
         <Toolbar className={classes.container}>

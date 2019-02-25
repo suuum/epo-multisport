@@ -8,8 +8,6 @@ class News extends Component {
   }
 
   componentDidMount() {
-
-
     this.props.fetchNews();
     setTimeout(() => {
       this.props.resetNews();
@@ -28,9 +26,9 @@ class News extends Component {
       </div>
     ));
     return (<div>
-        <h1>Posts</h1>
-        {newsItems}
-      </div>
+      <h1>Posts</h1>
+      {newsItems}
+    </div>
     );
   }
 }

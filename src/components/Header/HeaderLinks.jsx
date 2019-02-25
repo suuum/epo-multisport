@@ -22,13 +22,9 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Button
-          to="/"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >O Nas
-        </Button>
+        <Link to="/" className={classes.navLink} color="transparent">
+          O nas
+            </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <CustomDropdown
@@ -43,9 +39,9 @@ function HeaderLinks({ ...props }) {
             <Link to="/" className={classes.dropdownLink}>
               Producenci
             </Link>,
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="/serwis-rowerowy" className={classes.dropdownLink}>
               Serwis Rowerowy
-            </Link>]}/>
+            </Link>]} />
       </ListItem>
       <ListItem className={classes.listItem}>
         <CustomDropdown
@@ -57,23 +53,19 @@ function HeaderLinks({ ...props }) {
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/aktualnosci" className={classes.dropdownLink}>
+            <Link to="/opieka-trenerska" className={classes.dropdownLink}>
               Opieka Trenerska
             </Link>,
-            <Link to="/aktualnosci" activeClassName="active"></Link>,
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="/opieka-trenerska" activeClassName="active"></Link>,
+            <Link to="/trening-stacjonarny" className={classes.dropdownLink}>
               Trening Stacjonarny
-            </Link>]}/>
-        <Link to={`/aktualnosci`} activeClassName="active"></Link>
+            </Link>]} />
+        <Link to={`/trening-stacjonarny`} activeClassName="active"></Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          to="/aktualnosci"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}>
+        <Link to="/aktualnosci" className={classes.navLink} color="transparent">
           Aktualności
-        </Button>
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
@@ -86,7 +78,7 @@ function HeaderLinks({ ...props }) {
             href="https://www.facebook.com/naturalEPO/"
             target="_blank"
             className={classes.navLink}>
-            <i className={classes.socialIcons + " fab fa-facebook"}/>
+            <i className={classes.socialIcons + " fab fa-facebook"} />
           </Button>
         </Tooltip>
       </ListItem>
@@ -101,7 +93,7 @@ function HeaderLinks({ ...props }) {
             href="https://www.instagram.com/naturalepomultisport/"
             target="_blank"
             className={classes.navLink}>
-            <i className={classes.socialIcons + " fab fa-instagram"}/>
+            <i className={classes.socialIcons + " fab fa-instagram"} />
           </Button>
         </Tooltip>
       </ListItem>

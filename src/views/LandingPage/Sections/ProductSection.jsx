@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
@@ -20,13 +21,13 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Let's talk product</h2>
+            <h2 className={classes.title}>O nas</h2>
             <h5 className={classes.description}>
-              This is the paragraph where you can write more details about your
-              product. Keep you user engaged by providing meaningful
-              information. Remember that by this time, the user is curious,
-              otherwise he wouldn't scroll to get here. Add a button if you want
-              the user to see more.
+              Sklep biegowy i nie tylko w Szklarskiej Porębie. Szklarska Poręba
+              to mekka sportowców wytrzymałościowych, dlatego pojawiliśmy się tu
+              dla Was. Znajdziecie u nas wszystko czego potrzebuje sportowiec,
+              od odzieży po żywność, a nawet trening osobisty! Serdecznie
+              zapraszamy, po zakupy, ale także na “pogaduchy”!
             </h5>
           </GridItem>
         </GridContainer>
@@ -65,5 +66,12 @@ class ProductSection extends React.Component {
     );
   }
 }
+
+ProductSection.propTypes = {
+  classes: PropTypes.shape({
+    field1: PropTypes.number.isRequired,
+    field2: PropTypes.string
+  })
+};
 
 export default withStyles(productStyle)(ProductSection);

@@ -21,7 +21,7 @@ ReactDOM.render(
       <Route path="/aktualnosci" component={NewsPage}/>
       <Route path="/opieka-trenerska" component={HealthCoachingPage}/>
       <Route path="/serwis-rowerowy" component={BikeServicePage}/>
-      <Route path="/trening-stacjonarny" component={StationaryTrainingPage}/>      
+      <Route path="/obozy-i-trening-stacjonarny" component={StationaryTrainingPage}/>      
       <Route path="/kontakt" component={ContactPage}/>      
       <Route path="/sklep" component={ShopPage}/>     
       <Route path="/components" component={Components}/>

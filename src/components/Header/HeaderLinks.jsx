@@ -57,7 +57,7 @@ function HeaderLinks({ ...props }) {
               Opieka Trenerska
             </Link>,
             <Link to="/opieka-trenerska" activeClassName="active"></Link>,
-            <Link to="/trening-stacjonarny" className={classes.dropdownLink}>
+            <Link to="/obozy-i-trening-stacjonarny" className={classes.dropdownLink}>
               Obozy i Trening Stacjonarny
             </Link>]} />
         <Link to={`/trening-stacjonarny`} activeClassName="active"></Link>

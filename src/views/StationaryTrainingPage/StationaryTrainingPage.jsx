@@ -41,13 +41,13 @@ class StationaryTrainingPage extends React.Component {
                     }}
                     {...rest}
                 />
-                <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
+                <Parallax small filter image={require("assets/img/obozy2.jpg")} />
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div>
                         <div className={classes.container}>
                             <GridContainer justify="center">
                                 <GridItem xs={12} sm={12} md={6}>
-                                    <StationaryTraining/>
+                                    <StationaryTraining classes={classes}/>
                                 </GridItem>
                             </GridContainer>
                         </div>

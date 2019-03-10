@@ -6,6 +6,8 @@
     "npm": "3.5.2",
     "node": "8.10.0"
   },
+  "publicPath": "/",
+  "historyApiFallback": true,
   "homepage": "https://suuum.github.io/epo-multisport",
   "main": "dist/index.js",
   "dependencies": {

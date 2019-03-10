@@ -41,13 +41,13 @@ class BikeServicePage extends React.Component {
                     }}
                     {...rest}
                 />
-                <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
+                <Parallax small filter image={require("assets/img/bikeservice.jpeg")} />
                 <div className={classNames(classes.main, classes.mainRaised)}>
                     <div>
                         <div className={classes.container}>
                             <GridContainer justify="center">
                                 <GridItem xs={12} sm={12} md={6}>
-                                    <BikeService />
+                                    <BikeService classes={classes} />
                                 </GridItem>
                             </GridContainer>
                         </div>

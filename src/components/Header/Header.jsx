@@ -16,6 +16,7 @@ import Menu from "@material-ui/icons/Menu";
 // core components
 import headerStyle from "assets/jss/material-kit-react/components/headerStyle.jsx";
 import Img from "assets/img/logo.png";
+import { Link } from "react-router-dom";
 
 class Header extends React.Component {
   constructor(props) {
@@ -78,7 +79,10 @@ class Header extends React.Component {
       borderRadius: '50%',
       height:'70px'
     };
-    const brandComponent = <img src={Img} height="70px" style={brandStyle} />;
+    const brandComponent = 
+        <Link to="/" className={classes.navLink} color="transparent">
+          <img src={Img} height="70px" style={brandStyle} />
+        </Link>;
 
     return (
       <AppBar className={appBarClasses}>

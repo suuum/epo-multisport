@@ -36,8 +36,8 @@ function HeaderLinks({ ...props }) {
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              Producenci
+            <Link to="/sklep" className={classes.dropdownLink}>
+              Sklep
             </Link>,
             <Link to="/serwis-rowerowy" className={classes.dropdownLink}>
               Serwis Rowerowy
@@ -58,13 +58,13 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="/opieka-trenerska" activeClassName="active"></Link>,
             <Link to="/trening-stacjonarny" className={classes.dropdownLink}>
-              Trening Stacjonarny
+              Obozy i Trening Stacjonarny
             </Link>]} />
         <Link to={`/trening-stacjonarny`} activeClassName="active"></Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="/aktualnosci" className={classes.navLink} color="transparent">
-          Aktualności
+        <Link to="/kontakt" className={classes.navLink} color="transparent">
+          Kontakt
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>

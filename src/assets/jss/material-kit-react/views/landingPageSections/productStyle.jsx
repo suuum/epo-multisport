@@ -1,4 +1,5 @@
 import { title } from "assets/jss/material-kit-react.jsx";
+import imagesStyle from "assets/jss/material-kit-react/imagesStyles.jsx";
 
 const productStyle = {
   section: {
@@ -14,6 +15,12 @@ const productStyle = {
   },
   description: {
     color: "#999"
+  },
+  ...imagesStyle,
+  brandGrid:{
+    display: 'grid',
+    gridTemplateColumns: 'repeat( auto-fit, minmax(200px, 1fr) )',
+    alignItems: 'center'
   }
 };
 

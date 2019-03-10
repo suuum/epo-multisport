@@ -9,7 +9,10 @@ import NewsPage from "./views/NewsPage/NewsPage";
 import HealthCoachingPage from "./views/HealthCoachingPage/HealthCoachingPage";
 import BikeServicePage from "./views/BikeServicePage/BikeServicePage";
 import StationaryTrainingPage from "./views/StationaryTrainingPage/StationaryTrainingPage";
-
+import ContactPage from "./views/ContactPage/ContactPage";
+import ShopPage from "./views/ShopPage/ShopPage";
+import Components from "views/Components/Components.jsx";
+import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
 var hist = createBrowserHistory();
 
 ReactDOM.render(
@@ -19,7 +22,10 @@ ReactDOM.render(
       <Route path="/opieka-trenerska" component={HealthCoachingPage}/>
       <Route path="/serwis-rowerowy" component={BikeServicePage}/>
       <Route path="/trening-stacjonarny" component={StationaryTrainingPage}/>      
-      
+      <Route path="/kontakt" component={ContactPage}/>      
+      <Route path="/sklep" component={ShopPage}/>     
+      <Route path="/components" component={Components}/>
+      <Route path="/profile" component={ProfilePage}/>         
       <Route path="/" component={LandingPage}/>        
     </Switch>
   </Router>,

@@ -11,6 +11,15 @@ import Fingerprint from "@material-ui/icons/Fingerprint";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import InfoArea from "components/InfoArea/InfoArea.jsx";
+import Logo2xu from "./../../../assets/img/logo-2xu.jpg";
+import LogoBuff from "./../../../assets/img/logo-Buff.png";
+import LogoDobsom from "./../../../assets/img/logo-DOBSOM.jpg";
+import LogoMizuno from "./../../../assets/img/logo-MIZUNO.png";
+import LogoSaucony from "./../../../assets/img/logo-saucony.png";
+import LogoSueezy from "./../../../assets/img/logo-sueezy.png";
+import LogoUvex from "./../../../assets/img/logo-uvex.png";
+import LogoXtenex from "./../../../assets/img/logo-xtenex.jpg";
+import LogoZerod from "./../../../assets/img/logo-zerod.jpg";
 
 import productStyle from "assets/jss/material-kit-react/views/landingPageSections/productStyle.jsx";
 
@@ -27,41 +36,56 @@ class ProductSection extends React.Component {
               to mekka sportowców wytrzymałościowych, dlatego pojawiliśmy się tu
               dla Was. Znajdziecie u nas wszystko czego potrzebuje sportowiec,
               od odzieży po żywność, a nawet trening osobisty! Serdecznie
-              zapraszamy, po zakupy, ale także na “pogaduchy”!
+              zapraszamy, po zakupy, ale także na “pogaduchy”!<br /> <br />
+              Sklep Natural EPO multisport istnieje w Szklarskiej Porębie od kwietnia 2018 r, właścicielem jest aktywny triathlonista i trener - <b>Daniel Jakimiuk</b>.
+              <br /><br />Serdecznie zapraszamy po sprzęt jak i porady.
             </h5>
           </GridItem>
         </GridContainer>
-        <div>
-          <GridContainer>
-            <GridItem xs={12} sm={12} md={4}>
-              <InfoArea
-                title="Free Chat"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Chat}
-                iconColor="info"
-                vertical
-              />
-            </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
-              <InfoArea
-                title="Verified Users"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={VerifiedUser}
-                iconColor="success"
-                vertical
-              />
-            </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
-              <InfoArea
-                title="Fingerprint"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Fingerprint}
-                iconColor="danger"
-                vertical
-              />
-            </GridItem>
-          </GridContainer>
-        </div>
+        <h2 className={classes.title}>Producenci</h2>
+        <GridContainer>
+          <GridItem xs={12} sm={12} md={12} >
+            <div className={classes.brandGrid}>
+              <img
+                src={LogoSaucony}
+                alt="..."
+                className={`${classes.imgRounded} ${classes.imgFluid}`} />
+              <img
+                src={LogoMizuno}
+                alt="..."
+                className={`${classes.imgRounded} ${classes.imgFluid}`} />
+              <img
+                src={LogoDobsom}
+                alt="..."
+                className={`${classes.imgRounded} ${classes.imgFluid}`} />
+
+              <img
+                src={LogoBuff}
+                alt="..."
+                className={`${classes.imgRounded} ${classes.imgFluid}`} />
+              <img
+                src={Logo2xu}
+                alt="..."
+                className={`${classes.imgRounded} ${classes.imgFluid}`} />
+              <img
+                src={LogoSueezy}
+                alt="..."
+                className={`${classes.imgRounded} ${classes.imgFluid}`} />
+              <img
+                src={LogoUvex}
+                alt="..."
+                className={`${classes.imgRounded} ${classes.imgFluid}`} />
+              <img
+                src={LogoXtenex}
+                alt="..."
+                className={`${classes.imgRounded} ${classes.imgFluid}`} />
+              <img
+                src={LogoZerod}
+                alt="..."
+                className={`${classes.imgRounded} ${classes.imgFluid}`} />
+            </div>
+          </GridItem>
+        </GridContainer>
       </div>
     );
   }

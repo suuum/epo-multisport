@@ -45,8 +45,8 @@ class LandingPage extends React.Component {
             <GridContainer>
               <GridItem xs={12} sm={12} md={9}>
                 <h1 className={classes.title}>Sklep biegowy i nie tylko</h1>
-                <h4>Jesteśmy z miłości, do pasji... i gór...</h4>
-                <br />
+                <h4 className={classes.title}> Jesteśmy z miłości, do pasji... i gór...</h4>
+                <h4 className={classes.title}>PŁYWANIE, KOLARSTWO, BIEGANIE, TRENING -&gt; TRIATHLON</h4>
               </GridItem>
             </GridContainer>
           </div>

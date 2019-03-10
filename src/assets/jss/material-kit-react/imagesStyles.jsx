@@ -4,6 +4,7 @@ const imagesStyles = {
     height: "auto"
   },
   imgRounded: {
+    padding: "10px",
     borderRadius: "6px !important"
   },
   imgRoundedCircle: {

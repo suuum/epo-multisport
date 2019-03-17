@@ -32,7 +32,7 @@ export class MapContainer extends Component {
     render() {
         return (
             <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.1417383352878!2d15.516237615375712!3d50.82853847952932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470edb6b4d584279%3A0xbb534aed46c45efc!2sSklep+sportowy+i+serwis+rowerowy+%22natural+EPO+multisport%22!5e0!3m2!1spl!2sde!4v1552247034794" width="600" height="450" frameBorder="0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.1417383352878!2d15.516237615375712!3d50.82853847952932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470edb6b4d584279%3A0xbb534aed46c45efc!2sSklep+sportowy+i+serwis+rowerowy+%22natural+EPO+multisport%22!5e0!3m2!1spl!2sde!4v1552247034794" width="100%" height="450" frameBorder="0" allowfullscreen></iframe>
                 {/* <Map
                     google={this.props.google}
                     zoom={15}

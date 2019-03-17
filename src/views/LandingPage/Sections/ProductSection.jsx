@@ -20,6 +20,8 @@ import LogoSueezy from "./../../../assets/img/logo-sueezy.png";
 import LogoUvex from "./../../../assets/img/logo-uvex.png";
 import LogoXtenex from "./../../../assets/img/logo-xtenex.jpg";
 import LogoZerod from "./../../../assets/img/logo-zerod.jpg";
+import LogoCompress from "./../../../assets/img/logo-compress.png";
+import LogoViking from "./../../../assets/img/logo-viking.png";
 
 import productStyle from "assets/jss/material-kit-react/views/landingPageSections/productStyle.jsx";
 
@@ -81,6 +83,14 @@ class ProductSection extends React.Component {
                 className={`${classes.imgRounded} ${classes.imgFluid}`} />
               <img
                 src={LogoZerod}
+                alt="..."
+                className={`${classes.imgRounded} ${classes.imgFluid}`} />
+              <img
+                src={LogoCompress}
+                alt="..."
+                className={`${classes.imgRounded} ${classes.imgFluid}`} />
+              <img
+                src={LogoViking}
                 alt="..."
                 className={`${classes.imgRounded} ${classes.imgFluid}`} />
             </div>

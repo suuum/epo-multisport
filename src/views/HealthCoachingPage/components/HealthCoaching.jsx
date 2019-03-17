@@ -44,13 +44,25 @@ export class HealthCoaching extends Component {
                     <li>
                         2 msc w klasyfikacji generalnej Pucharu Polski na dystansie 1/2 IM w kategorii M25-29
                     </li>
-                    <li>
-                        10 km WROACTIVE marzec 2018: 34:19, 14 msc OPEN
-                    </li>
-                    <li>
-                        Półmaraton Sobótka 360 m w pionie: 1:16:48
-                    </li>
                 </ul>
+                <h4>Rekordy:</h4>
+                <h5>Biegi:</h5>
+                <ul>
+                    <li>10 kilometrów: <b>33 min 27 s</b> (16.03.2019 r) </li>
+                    <li>21,1 km(półmaraton): <b>1 h 16 min 50 s</b> (24.03.2018 r) </li>
+                </ul>
+                <h5>Triathlon:</h5>
+                <ul>
+                    <li>Dystans Olimpijski: <b>2 h 16 min 56 s</b> (08.2016) </li>
+                    <li>1/4 IM: <b>2 h 09 min 43 s</b> (07.2017 r)</li>
+                    <li>1/2 IM: <b>4 h 21 min 58 s</b> (09.2018 r)</li>
+                </ul> 
+                <h5>Duathlon:</h5>
+                <ul>
+                    <li>Long 10-60-10 (km):  <b></b>02 h 52 min 41 s (05.2018)</li>
+                    <li>1/4 IM: <b>2 h 09 min 43 s</b> (07.2017 r)</li>
+                    <li>Classic 10-40-5 (km): <b>01 h 58 min 45 s</b> (09.2018)</li>
+                </ul> 
                 <h5>Więcej na -&gt; <Link to="https://www.facebook.com/zBogiemprzeztriathlon/"><b>Z Bogiem przez Triatlon</b></Link></h5>
                 <h5>O osiągnięciach naszych zawodników możesz przeczytać na naszym facebook’u</h5>
                 <img
